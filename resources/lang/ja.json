@@ -2,5 +2,7 @@
    "Register" :"新規登録",
    "Password" : "パスワード",
    "E-Mail Address": "メールアドレス",
-   "Logout":"ログアウト"
+   "Logout":"ログアウト",
+   "Name": "ニックネーム",
+   "Confirm Password": "パスワード（もう一度入力）"
 }
