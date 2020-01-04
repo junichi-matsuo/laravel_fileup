@@ -16,4 +16,4 @@ Auth::routes();
 Route::get('/password/email', function() {return redirect('/');});
 Route::get('/password/reset', function() {return redirect('/');});
 // Route::get('/home', 'HomeController@index')->name('home');
-Route::resource('posts','PostsController');
+Route::resource('posts','PostsController', ['only' => ['index','create','store','edit','destroy']]);
